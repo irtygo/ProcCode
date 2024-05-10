@@ -1,8 +1,9 @@
 // (c) Copyright 2024 IrtyGo
 // Codename ProcCode
-// Version 0.2.0.0
+// Version 0.2.0.3
 // Descrption: File Operations
 // Licenced under the GPL version 3.0, See LICENSE
+// Updated by IrtyGo on 05/10/2024
 
 
 int CheckIfFileExists(char* fname)
