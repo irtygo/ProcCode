@@ -1,14 +1,15 @@
 // (c) Copyright 2024 IrtyGo
 // Codename ProcCode
-// Version 0.2.0.3
+// Version 0.2.1
 // Descrption: Main C file
 // Licenced under the GPL version 3.0, See LICENSE
-// Updated by IrtyGo on 05/10/2024
+// Updated by IrtyGo on 10/05/2024-21/05/2024
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include "fileop.h"
 #include "addstr.h"
+
 
 struct cmd {
 
@@ -43,7 +44,12 @@ To run a program/command with more than one argument, put the the argument in qu
 eg.\n\
 proccode -print ls \"/home/work -a\"\n\
 proccode -log cat 'important.txt coolgamesource.c'\n";
-cmd.version = "Proccode Version 0.2.0.3\nCopyright 2024 IrtyGo.\nLicensed with GPL 3.0\nTHERE IS ABSOLUTELY NO WARRANTY.\n";
+cmd.version = "Proccode Version 0.2.1\n\
+ProcCode Copyright(C) 2024 IrtyGo\n\
+This is free software; see source for copying conditions.\n\
+This program comes with ABSOLUTELY NO\n\
+WARRANTY; not even FOR MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\
+";
 cmd.fnf = "Error: File not found.\n";
 regmode.log = "-log";
 regmode.print = "-print";
