@@ -1,9 +1,9 @@
 // (c) Copyright 2024 IrtyGo
 // Codename ProcCode
-// Version 0.2.0.3
+// Version 0.2.1
 // Descrption: Additonal String Commands
 // Licenced under the GPL version 3.0, See LICENSE
-// Updated by IrtyGo on 05/10/2024
+// Updated by IrtyGo on 10/05/2024-21/05/2024
 
 #include <stdio.h>
 #include <string.h>
