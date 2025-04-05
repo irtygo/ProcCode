@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v4
     
     - name: Build
-      run: make every1
+      run: make proccode
           
