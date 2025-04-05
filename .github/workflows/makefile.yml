@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4 egor-tensin/setup-mingw@v2
+    - uses: actions/checkout@v4
     
     - name: Build
       run: make every1
